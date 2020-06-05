@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>IndexServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TermServlet</servlet-name>
+        <servlet-class>TermServlet</servlet-class>
+        <load-on-startup>10</load-on-startup>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>TermServlet</servlet-name>
+        <url-pattern>/term</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TimeServlet</servlet-name>
+        <servlet-class>TimeServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>TimeServlet</servlet-name>
+        <url-pattern>/time</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>ResearcherServlet</servlet-name>
+        <servlet-class>ResearcherServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>ResearcherServlet</servlet-name>
+        <url-pattern>/researcher</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>JournalServlet</servlet-name>
+        <servlet-class>JournalServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>JournalServlet</servlet-name>
+        <url-pattern>/journal</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TreeViewServlet</servlet-name>
+        <servlet-class>TreeViewServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>TreeViewServlet</servlet-name>
+        <url-pattern>/treeview</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NetworkServlet</servlet-name>
+        <servlet-class>NetworkServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>NetworkServlet</servlet-name>
+        <url-pattern>/network</url-pattern>
+    </servlet-mapping>
+  
+</web-app>

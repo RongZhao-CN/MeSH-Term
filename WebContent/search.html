@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+
+<script src="js/jquery.min.js"></script>
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+ <link href="css/search.css" rel="stylesheet">
+<head>
+<meta charset="UTF-8">
+<title>MeSH Online</title>
+<link rel="Shortcut Icon" href="title.ico" type="image/x-icon" />
+</head>
+<body>
+
+<script>
+function expand(){
+	
+	document.getElementById("search-input").classList.toggle("square");
+	document.getElementById("search-btn").classList.toggle("close");
+}</script>
+
+<form id="content" action="term" method="get">
+<div id="mybackgorund" style="background-image:url('MeSHOnline.png');position: absolute;left:50%;top:15%;width:100px;height:80px;">
+</div>
+  <input type="text" name="input" class="input" id="search-input">
+  <button type="reset" class="search" id="search-btn" onclick="expand()"></button>
+</form>
+
+
+</body>
+</html>
