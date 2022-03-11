@@ -26,7 +26,7 @@ LinuxMonitor基于java实现linux性能监测功能，监测数据包括CPU使�
 
    系统图形界面如下图所示：
 
-![img](file:///D:\Temp\ksohtml\wps7955.tmp.jpg)
+![img](READMED.assets/wps7C87.tmp.jpg)
 
 ​																						图1 linux系统性能监控图形界面
 
