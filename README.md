@@ -16,12 +16,5 @@ MeSHOnline是一个生物热点可视分析web应用，这是一个基于Java和
 
 请观看以下演示视频：
 
+https://github.com/RongZhao-CN/MeSH-Term/blob/master/%E7%B3%BB%E7%BB%9F%E5%B1%95%E7%A4%BA.mp4
 
-
-![img](README.assets/wps3520.tmp.jpg)
-
-图1 MeSHOnline信息检索页面
-
-![img](README.assets/wps6142.tmp.jpg)
-
-图2 MeSHOnline信息概览页面
